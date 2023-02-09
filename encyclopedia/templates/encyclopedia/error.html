@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block body %}
+    <h1>Error</h1>
+
+    Page with the same title already exists. If you want to change the contex, please go to the page and press Edit button.
+    <p><a href="{% url 'index' %}">Back</a>  </p>
+
+    
+    
+
+{% endblock %}
